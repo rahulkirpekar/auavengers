@@ -1,0 +1,142 @@
+	1.Exception		2. Error
+	      |			     |
+	 Recoverable		Irrecoverable
+	      |
+	Exception-Handling	
+
+
+
+Exception:- Abnormal Scenario.
+-----------
+
+1. ArithmeticException:-
+--------------------------
+
+	10 / 0;//  raise exception----code---crashed---ArithmeticException(class)
+
+2. ArrayIndexoutofBoundException:-
+--------------------------------------
+
+	int a[] = new int[5];// a[0],...a[4]
+
+	a[5] = 100;
+3. StringIndexoutofBoundException:-
+--------------------------------------
+
+
+		//     01234		
+	String name = "royal";
+
+	SOP(name.charAt(5));// StringIndexOutofBoundException
+
+4. NullPointerException:-
+--------------------------------------
+
+	String name = null;
+	SOP(name.length());// NullPointerException
+
+	Student s = null;
+	SOP(s.toString());
+
+5.  NumberFormateException
+------------------------------
+ 
+	String value = "a1b2c3";
+
+	int no1 = Integer.parseInt(value);// NumberFormateException
+
+	SOP(no1+100);// 223
+
+6.  ClassCastException
+------------------------------
+
+		A(test1())
+		|
+	-----------------
+	|		|
+	B		C
+   test1()--B	     test1()--C
+
+   testB();	     testC();
+
+
+	// Upcasting
+	A obj = new C();
+	obj.test1();// B
+
+
+	// obj.testB();// C.E
+
+
+	// Downcasting
+	B objB = (B)obj;// ClassCastException
+	objB.testB();
+
+	
+
+
+
+
+
+	obj = new C();
+	obj.test1();// C
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

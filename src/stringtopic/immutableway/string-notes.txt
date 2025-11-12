@@ -1,0 +1,53 @@
+		Ways to opearation on String (Multiple Characters)
+		-------------------------------
+
+1. ImmutableWay			2. MutableWay
+-----------------		-----------------
+==> String			==> StringBuilder
+				==> StringBuffer--Threadsafe-->(MultiThreadding)
+
+
+1. ImmutableWay(String):-
+--------------------------
+
+	1. By String LiteralWay[ RAM------->HEAP-------->SCP( String Constant Pool)]:-
+	-----------------------------------------------------------------------------
+		String name1 = "Rahul";
+		String name2 = "Rahul";
+		String name3 = "Kirpekar";
+		String name4 = name1;
+		String name5 = name1 + name3; //name1.concat(name3);// RahulKirpekar
+
+Object eqaulity:-
+-----------------
+		1. referenceBased(==)		2. valuesBased(.equals())
+		---------------------		--------------------------
+		SOP(name1==name2);//true	SOP(name1.equals(name2));// true
+		SOP(name1==name3);//false	SOP(name1.equals(name3));// false
+		SOP(name1==name4);//true	SOP(name1.equals(name3));// true
+		SOP(name1==name5);//false	SOP(name1.equals(name3));// false
+
+
+	2. By 'new' Keyword Way[ RAM------->HEAP]:-
+	---------------------------------------------------------
+		String name1 = new String("Rahul");
+		String name2 = new String("Rahul");
+		String name3 = new String("Kirpekar");
+		String name4 = name1;
+		String name5 = name1 + name3; //name1.concat(name3);// RahulKirpekar
+
+Object eqaulity:-
+-----------------
+		1. referenceBased(==)		2. valuesBased(.equals())
+		---------------------		--------------------------
+		SOP(name1==name2);//false	SOP(name1.equals(name2));// true
+		SOP(name1==name3);//false	SOP(name1.equals(name3));// false
+		SOP(name1==name4);//true	SOP(name1.equals(name3));// true
+		SOP(name1==name5);//false	SOP(name1.equals(name3));// false
+
+
+
+
+
+
+	

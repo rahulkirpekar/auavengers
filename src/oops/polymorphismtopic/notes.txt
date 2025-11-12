@@ -1,0 +1,47 @@
+Polymorphism--- Ability to take more than one form(method).
+--------------
+			Type of Polymorphism
+			--------------------	
+	1. Compiletime			2. Runtime 
+	-----------------		-----------------
+	static Binding			Dynamic Binding
+	early  Binding			late Binding
+Example:-			Example:-
+--------			--------
+	===> Method Overloadding	===> Method Overridding	
+-------------------------------------------------------------------------------------
+2. Runtime :-
+--------------
+
+
+
+		Person(void getBehave(){..human...})
+		  |
+ ------------------------------------------
+  |		|	  |		|
+School	       Org    PublicPlace      Home	
+  |		|	  |		|
+getBehave() getBehave() getBehave() getBehave() <===Method Overridding
+  |		|	  |		|
+Student     Employee   Citizen	      Child
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
