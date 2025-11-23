@@ -1,0 +1,89 @@
+Array Limitations:-
+-------------------
+
+	int a[] = new int[5];//a[0]...a[4]
+
+	1. SIZE
+	2. TYPE	
+
+
+Collection Framework:- To overcome Limitations of Array.
+----------------------
+			Hierarchy of Collection [import java.util.*;]
+			-----------------------	
+				 Object(C)
+				   |
+				Iterable(I)---------------------------------------------------------------
+				   |									|
+				Collecion(I)								|
+				   |									|
+				   |Data--value								|
+				   |									|
+	---------------------------------------------------------					|
+	|			   |				|					|
+      List(I)			Set(I)			    Queue(I)		 		       Map[Key,Value]
+	|			   |				|					| 
+AbstractList(AC)	     AbstractSet(AC)		 AbstractQueue(AC)		 	   AbstractMap(AC)
+	|			   |				|					|
+--ArrayList(C)		--HashSet(C)			--PriorityQueue(C)			--HashMap(C)
+--Vector(C)		--LinkedHashSet(C)							--LinkedHashMap(C)
+--LinkedList(C)		--TreeSet(C)								--TreeMap(C)
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+List(I)	Features:-
+-----------------
+
+	1. Stores values in Insertion order.
+	2. Allows Duplicate Values.
+	3. can access by Index
+	4. can contain null values.
+
+ArrayList Features:-
+-------------------
+
+	1. Stores values in Insertion order.(Ordered Collection)
+	2. Allows Duplicate Values.
+	3. can access by Index
+	4. can contain null values.
+	5. Dynamic Resizing
+	6. Fast Read Operations 
+	7. Non-Synchronized
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
