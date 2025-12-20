@@ -1,0 +1,63 @@
+Type Stream (Cache Memory)
+--------------------------
+
+	1.InputStream (read)---->from console/File/Socket) 
+	2.OutputStream(write)--->from console/File/Socket)
+	3.ErrorStream(Error Log)
+
+
+	System.out.println();// console
+
+
+	Scanner sc = new Scanner(System.in);// Console
+
+
+
+IO:-   InputStream and OutputStream
+-----
+
+DataType:-
+---------
+	1. String		2. User Defined class(Objects)
+-------------------------------------------------------------------------------------------------------
+	ABC---byte
+
+	1. Byteoriented Way			2. Character oriented way
+	-------------------			---------------------------
+	1. String				1. String
+		1. FileOutputStream(Write)		1.FileWriter(write)	
+		2. FileInputStream(Read)		2.FileReader(read)
+	
+	String,image,video,....
+
+	2. Objects
+-----------------------------------------------------------------------------------------------------------
+
+	
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
