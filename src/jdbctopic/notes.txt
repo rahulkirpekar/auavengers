@@ -1,0 +1,84 @@
+
+	CREATE TABLE Student
+	(
+		id int PRIMARY KEY AUTO_INCREMENT,
+		name varchar(50),
+		std int,
+		marks int
+	);
+
+
+
+
+
+
+
+
+Student---Table 
+----------------
+	|
+       dao(Data Access Object)
+	|
+    StudentDao
+	-- insertStudent()
+	-- updateStudent()
+	-- deleteStudent()
+	-- getAllStudents()
+
+	1. Statement
+	     |	
+	2. PreparedStatement
+
+DbConnection object
+
+1. Statement		2. PreparedStatement	3. CallableStatement
+--------------		---------------------	---------------------		
+INSERT			INSERT			triggers
+UPDATE			UPDATE			procedures
+DELETE			DELETE			function
+SELECT			SELECT	
+
+1. Statement / PreparedStatement
+-------------------------------------
+	1. executeUpdate()--int-----------[insert,update,delete]
+
+	2. executeQuery()---ResultSet-----[select]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

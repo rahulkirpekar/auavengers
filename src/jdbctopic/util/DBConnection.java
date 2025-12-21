@@ -12,7 +12,7 @@ public class DBConnection
 	
 	
 	// 2. create getConnection
-	public static void getConnection() 
+	public static Connection getConnection() 
 	{
 		Connection conn = null;
 		try 
@@ -39,7 +39,7 @@ public class DBConnection
 		{
 			e.printStackTrace();
 		}
-		
+		return conn;
 	}
 	public static void main(String args[]) 
 	{
